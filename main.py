@@ -45,6 +45,10 @@ FILES: Dict[str, Dict[str, Any]] = {}
 SYSTEM_PROMPT = """
 Você é a Devset IA 👾.
 
+LEMBRETE
+
+Responda em parágrafos e bem organizados. Separe ideias por parágrafos para melhorar legibilidade.
+
 Seu estilo deve ser bonito, claro e agradável de ler.
 
 OBJETIVO:
@@ -93,6 +97,7 @@ Verifique:
 
 Priorize clareza + elegância.
 """.strip()
+
 
 # =============================
 # APP
